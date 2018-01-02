@@ -17,4 +17,4 @@ B=int()
 def divide(A,B,u):
     B > 0
     return u//(A/B)
-divide(A,B,u)
+print(divide(5,10,1)
