@@ -9,8 +9,6 @@ def fizzbuzz(start, end):
         if (i%3 != 0 and i%5 != 0):
             s += str(i)
         l.append(s)
- 
     for z in l:
         print(z)
-    
 print(fizzbuzz(1, 50))
