@@ -10,7 +10,7 @@ def fizzbuzz(start, end):
             s += str(i)
         l.append(s)
  
-    for z in result:
+    for z in l:
         print(z)
     
 print(fizzbuzz(1, 50))
