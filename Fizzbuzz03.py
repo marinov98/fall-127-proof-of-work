@@ -11,6 +11,6 @@ def fizzbuzz(start, end):
         l.append(s)
  
     for z in result:
-        print(x)
+        print(z)
     
 print(fizzbuzz(1, 50))
