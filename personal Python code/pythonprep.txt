@@ -1,0 +1,58 @@
+Run length encoding is a form of compression that is sometimes used for images or other data that's repetitive.
+
+In run length encoding, repeated sequences of values are replaced with a count and a single value.
+
+We are going to use run length encoding to encode a string into a list.
+
+For example, the string "aaaaa" would encode to [5, 'a'] since a appears 5 times.
+
+The string "bbaaa" would encode to [2,'b',3,'a'] since b occurs twice and a once.
+
+A single letter just gets encoded as is without a count so the string "aabcccdeeeeaaa" encodes to
+[2,'a',b,3,'c',d,4,'e',3,'a'].
+
+Write a routine encode(s) which will run length encode the string s as specified above.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+QUESTION 3:
+
+In the game of scrabble, letters are scored as follows:
+
+
+Letter                                         Value
+A, E, I, O, U, L, N, R, S, T       		1
+D, G                                          	2
+B, C, M, P                                 	3
+F, H, V, W, Y                            	4
+K                                              	5
+J, X                                           	8
+Q, Z                                        	10
+
+
+
+Write a routine score(w) which will return the scrabble score for the word specified by the string w.
+
+For example, score("hello") will return 8 since h is worth 4 points and each of the other letters is worth 1.
+
+For full credit you should use the appropriate Python constructs to represent the scores
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+QUESTION 4 (NOTE: FOR THIS QUESTION, YOU DO NOT HAVE TO CREATE A FUNCTION):
+
+Write a program that prints the numbers from 1 to 100.
+
+But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz".
+
+For numbers which are multiples of both three and five print "FizzBuzz".
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+QUESTION 5:
+
+Create a function that would input a sequence of non-negative numbers (terminated with a -1)
+
+and output the average of the even-indexed and odd-indexed ones.
+
+Ex: if the input is 3,7,2,18,7,8,-1, output 4 and 11.
